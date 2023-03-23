@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre"><br>
+      
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni"><br>
+      
+        <label for="sexo">Sexo:</label>
+        <select id="sexo">
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+          <option value="otro">Otro</option>
+        </select><br>
+      
+        <label for="telefono">Número telefónico:</label>
+        <input type="text" id="telefono"><br>
+      
+        <button type="button" onclick="agregarDatos()">Agregar</button>
+      </form>
+      
+      <table id="tabla">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>DNI</th>
+            <th>Sexo</th>
+            <th>Número telefónico</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+      
+      <script src="clase5ej4.js"></script>
+</body>
+</html>

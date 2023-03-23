@@ -13,5 +13,7 @@ function saludar(){
     alert(`¡Hola, ${nombre} ${apellido}!`);
 }
 
-let autos = ["Civic", "Etios", 308];
+let autos = ["Civic", "Etios", 308, 206, 408];
 console.log(autos[1]);
+
+
