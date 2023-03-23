@@ -16,4 +16,5 @@ function saludar(){
 let autos = ["Civic", "Etios", 308, 206, 408];
 console.log(autos[1]);
 
+console.log(autos[4]);
 
