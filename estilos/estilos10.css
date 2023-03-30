@@ -1,0 +1,15 @@
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  #imagen1 {
+    z-index: 1;
+  }
+  
+  #imagen2 {
+    z-index: 2;
+  }
